@@ -7,19 +7,22 @@ class Room:
         self.height = y
         self.lenght = z   
         self.wd = []
-    def square():
-        return 2 * lenght * (width + height)
+    def square(self):
+        return 2 * self.lenght * (self.width + self.height)
     def addWD(self, w, h):
         self.wd.append(Win_Door(w, h))
     def workSurface(self):
-        new_square = self.square
+        new_square = self.square()
         for i in self.wd:
             new_square -= i.square
         return new_square
+    def roll(self, wr, hr):
+        return self.workSurface()/(wr*hr)
 
 r1 = Room(6, 3, 2.7) 
-print(r1.square()) #общая  площадь квартиры
-r1.addWD(1, 1)  #площадь окна
-r1.addWD(1, 1) #площадь окна
-r1.addWD(1, 2) #площадь двери
+print(r1.square()) #
+r1.addWD(1, 1)  #
+r1.addWD(1, 1) #
+r1.addWD(1, 2) #
 print(r1.workSurface()) 
+print(r1.roll(1, 2))
