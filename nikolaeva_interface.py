@@ -1,7 +1,7 @@
+from nikolaeva_5_1 import *
 
-
-i1 = Interface()
-r1 = Room(i1.parametersRoom[0], i1.parametersRoom[1], i1.parametersRoom[2]) 
+i1 = Interface.Interface()
+r1 = Room.Room(i1.parametersRoom[0], i1.parametersRoom[1], i1.parametersRoom[2]) 
 print(f' Oбщая  площадь квартиры: {r1.square()}')
 for i,j in enumerate(range(0,len(i1.parametersWindow),2)):
     r1.addWD(i1.parametersWindow[i], i1.parametersWindow[i+1])  #площадь окон

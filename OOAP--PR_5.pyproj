@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e735976d-0428-46e4-8fe1-3487d597d396</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>nikolaeva_5_1\nikolaeva_interface.py</StartupFile>
+    <StartupFile>nikolaeva_interface.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,10 +30,16 @@
     <Compile Include="geometry\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="nikolaeva_5_1\nikolaeva_interface.py">
+    <Compile Include="nikolaeva_5_1\Interface.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="nikolaeva_5_1\nikolaeva_classes.py">
+    <Compile Include="nikolaeva_5_1\Room.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nikolaeva_5_1\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nikolaeva_interface.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="OOAP--5-2.py">
