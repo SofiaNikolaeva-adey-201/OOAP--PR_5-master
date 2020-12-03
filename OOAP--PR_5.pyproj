@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e735976d-0428-46e4-8fe1-3487d597d396</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>OOAP__PR_5.py</StartupFile>
+    <StartupFile>nikolaeva_5_1\nikolaeva_interface.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,12 @@
     <Compile Include="geometry\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="nikolaeva_5_1\nikolaeva_interface.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="nikolaeva_5_1\nikolaeva_classes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="OOAP--5-2.py">
       <SubType>Code</SubType>
     </Compile>
@@ -41,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="geometry\" />
+    <Folder Include="nikolaeva_5_1\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
